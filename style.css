@@ -1,0 +1,114 @@
+/* Write some CSS below */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #080101;
+}
+.Section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+}
+#Présentation { background-color: #ffdddd;
+    box-shadow: 7px 7px 20px 0 rgba(232, 130, 130, 0.837);
+    height: auto;}
+#Mescompétences { background-color: #ddffdd; 
+    box-shadow: 7px 7px 20px 0 rgba(107, 233, 72, 0.79);
+    height: 150px;}
+#Cequejaime { background-color: #ddddff; 
+    box-shadow: 7px 7px 20px 0 rgba(169, 98, 220, 0.832);
+    height: 130px;}
+#Cequejedéteste{ background-color: #ffffdd; 
+    box-shadow: 7px 7px 20px 0 rgba(208, 206, 83, 0.878);
+    height: 130px;}
+#Mesréseauxsociaux { background-color: #ddffff; 
+    box-shadow: 7px 7px 20px 0 rgba(103, 208, 235, 0.848);
+    height: 130px;
+    text-align: center;}
+#bleupink-li{
+    display: inline-flex;
+    font-size: 60px;
+    list-style-type: none;
+    transition: 0.5s;
+}
+#bleupink-li:hover{
+    transform: scale(1.5);
+}
+.social-button1 {
+    padding: 15px 25px;
+    color: rgb(36, 99, 208);
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    list-style-type: none;
+    font-weight: 100;
+}
+.social-button2 {
+    padding: 15px 25px;
+    color: rgb(226, 38, 195);
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    list-style-type: none;
+    font-weight: 100;
+}
+.list-boutton{
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+}
+img{
+    border-radius: 50%;
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-style:double;
+    border-color: #ad3173;
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.837);
+}
+
+.title1 {
+    color: #ad3173;
+}
+.title2 {
+    color: #056e13;
+}
+.title3 {
+    color: rgb(81, 23, 103);
+}
+.title4 {
+    color: rgb(115, 115, 32)
+}
+.title5 {
+    color: rgb(6, 88, 204);
+    text-align: left;
+    margin-bottom: -45px;
+}
+.button-link {
+    float: right;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px;
+    background-color: #16db3e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 10px 0 #063c10;
+    transition: 0.5s;
+}
+.button-link:hover {
+    transform: translate(10px, 10px);
+    box-shadow: 0px 0px #063c10 ;
+}
+#mon-image{
+    transition: 0.5s;
+}
+#mon-image:hover{
+    transform: scale(1.5);
+}
+.container {
+ background-color: rgb(0, 0, 0);
+}
+    
